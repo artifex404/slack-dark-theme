@@ -1394,7 +1394,7 @@ nav {
     background: var(--background-elevated);
 }
 .c-message--highlight, .c-message--highlight_yellow_bg {
-    background: var(--background-hover);
+    background: var(--background);
 }
 /* new filelist */
 #client-ui .file_list_item.file_list_item--redesign {
@@ -1504,6 +1504,11 @@ nav {
 
 /* "only visible to you" highlight */
 .c-message--ephemeral, .c-message--sli_highlight_negative {
+    background: var(--background-hover);
+}
+
+/* normal message hover highlight */
+.c-message--hover {
     background: var(--background-hover);
 }
 
