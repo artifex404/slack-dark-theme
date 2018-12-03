@@ -19,7 +19,7 @@ limitations under the License.
   --text: rgb(220, 221, 222);
   --text-read: rgb(114, 118, 125);
   --background: rgb(53, 56, 63);
-  --background-elevated: rgb(46, 48, 54);
+  --background-elevated: rgb(50, 50, 50);
   --team-picker: rgb(32, 34, 37);
 
   --background-hover: rgb(59, 63, 69);
@@ -132,7 +132,7 @@ ts-jumper input[type="text"],
 }
 
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
-    background-color: var(--background);
+    background-color: var(--background-hover);
 }
 .c-message--light .c-message__sender .c-message__sender_link {
     color: var(--text);
