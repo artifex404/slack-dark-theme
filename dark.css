@@ -1770,3 +1770,8 @@ div#search_container.c-react_search_input {
   background-color: var(--background);
   background-image: none;
 }
+
+/* Remove box shadow white pixels */
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
+  box-shadow: none;
+}
