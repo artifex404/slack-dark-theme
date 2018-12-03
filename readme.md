@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let webviews = document.querySelectorAll(".TeamView webview");
 
     // Fetch our CSS in parallel ahead of time
-    const cssPath = 'https://raw.githubusercontent.com/artifex404/slack-dark-theme/master/discord.css';
+    const cssPath = 'https://raw.githubusercontent.com/artifex404/slack-dark-theme/master/dark.css';
     let cssPromise = fetch(cssPath).then(response => response.text());
 
     let customCustomCSS = `

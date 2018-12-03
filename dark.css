@@ -1712,6 +1712,7 @@ body:not(.loading) #team_menu:active {
 .search_form,
 .search_form:hover,
 .p-channel_sidebar__jumper,
+.p-channel_sidebar__jumper.c-button-unstyled,
 div#search_container.c-react_search_input {
   border: transparent;
   background-color: var(--input-background);
